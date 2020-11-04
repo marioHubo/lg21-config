@@ -19,6 +19,6 @@ feign:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka1.com:6001/eureka/
+      defaultZone: http://127.0.0.1:6001/eureka	
 
   
