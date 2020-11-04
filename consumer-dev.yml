@@ -1,6 +1,6 @@
 server:
   port: 8001
-  info: "这是消费者的yml"
+  info: "这是消费者的yml11"
   
 spring:
   application:
