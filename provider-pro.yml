@@ -5,9 +5,9 @@ server:
 spring:
   application:
     name: users-provider
-   datasource:
-    driver-class-name:com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     username: root
     password: 123
     
@@ -19,6 +19,6 @@ feign:
 eureka:
   client:
     service-url:
-      defaultZone:http://eureka1.com:6001/eureka/
+      defaultZone: http://eureka1.com:6001/eureka/
 
   
