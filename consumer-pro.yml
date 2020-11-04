@@ -1,0 +1,26 @@
+server:
+  port: 8001
+  info: "这是消费者的yml"
+  
+spring:
+  application:
+    name: users-consumer
+   thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+   mvc:
+    static-path-pattern: /**
+   resources:
+    static-locations: classpath:/templates/,classpath:/META-NF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1.com:6001/eureka/
+      
+#服务降级的开关
+feign:
+  hystrix:
+    enabled: false  
