@@ -1,6 +1,6 @@
 server:
   port: 3001
-  info: "这是提供者的yml verson=1.0"
+  info: username={cipher}f2db8bc204eac359be10922b2f49bbdfdeeba2e074db3288d319cce69cee9c04，password={cipher}08ad43c2a394fc18034de58aea86710d1b2fb0ae8053f53eed017576f5c48668
 
 spring:
   application:
