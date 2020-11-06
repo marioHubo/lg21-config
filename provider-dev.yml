@@ -1,6 +1,6 @@
 server:
   port: 3001
-  info: "这是提供者的yml111"
+  info: "这是提供者的yml"
 
 spring:
   application:
